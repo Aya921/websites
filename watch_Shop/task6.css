@@ -1,0 +1,1091 @@
+img{
+    width: 100%;
+}
+.p-70 {padding: 70px 0;}
+
+
+
+
+
+
+
+
+
+.first{
+   background-color: #f1f1f1;
+   height: 590px;
+
+    
+}
+.first .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.first .watch{
+    width: 50%;  
+}
+
+
+.first .watchtext h1{
+    font-size: 60px;
+    font-family:'Josefin Sans', sans-serif;
+
+}
+.first .watchtext p{
+    font-size: 14px;
+    color: #212025;
+    padding: 20px 0;
+    font-weight: 400;
+    width: 600px;
+    
+}
+
+ .watchtext {
+    animation-name: watchtexttest;
+    animation-duration: 1s;
+    animation-iteration-count: 10s;
+    transition: all .5s;
+    position: relative;
+    left: -60px;
+    
+    
+}
+ @keyframes  watchtexttest{
+    0% {transform: translate(-60px); opacity: 0; }
+    100% { opacity: 1; opacity: 1;}
+
+} 
+.first .watchimg{
+    width: 200px;
+    height: 500px;   
+    animation-name:watchimgtest ;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+    transition: all 2s ;
+     
+}
+
+
+
+
+
+
+@keyframes watchimgtest{
+    0%{transform: scale(1); opacity: 1;}
+    50%{transform: scale(1.06); opacity: 1;}
+    100%{transform: scale(1); opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+.first .watchtext .btn {
+    width: 120px;
+    height: 35px;
+    background-color: #4a4a4b;
+    font-size: 15px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    border-radius: 0%;
+    transition: all 1s;
+    margin-top: 30px;
+    
+}
+
+.first .watchtext .overlay{
+    width: 0px;
+    height: 35px;
+    background-color: red;
+    position: absolute;
+    
+    bottom: 0;
+    transition: all .5s;
+    
+    
+        
+} 
+.first .watchtext .overlay:hover {
+    width: 120px;
+   
+    
+    
+    
+}
+
+
+
+
+/*  */
+
+
+.two{
+   
+
+    
+}
+.two .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.two .twotext h2{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 48px;
+    
+}
+
+.two .card {
+    margin-top: 60px;
+    border: none;
+    overflow: hidden;
+    background-color: transparent;
+    
+
+  
+}
+
+
+.two .d{
+    margin: auto;
+    width: 75%;
+    
+}
+.two .card-body{
+    text-align: center;
+    padding: 30px 0;
+
+}
+.two .card-body h5{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.two .card-body p{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: red;
+}
+
+
+.card img{
+    transition: all .5s;
+    
+    
+    
+    
+    
+}
+.card:hover img{
+    transform: scale(1.05);
+}
+
+
+/*  */
+
+
+
+
+
+
+
+.three .cardsimg{
+    height: 585px;
+    width: 100%;
+    background-image: url(../task6/gallery1.png.webp);
+    background-size: cover;
+    
+}
+.three .cards2img{
+    height: 585px;
+    width: 100%;
+    background-image: url(../task6/gallery2.png.webp);
+    background-size: cover;
+}
+.three .cards3img{
+    height: 280px;
+    width: 100%;
+    background-image: url(../task6/gallery3.png.webp);
+    background-size: cover;
+}
+.three .cards4img{
+    height: 280px;
+    width: 100%;
+    background-image: url(../task6/gallery4.png.webp);
+    background-size: cover;
+    transition: all .5s;
+}
+
+
+
+
+.three .cards{
+    transition: all 1s ;
+    margin-top: 25px;
+    overflow: hidden;
+    position: relative;
+    transition: all .5s;
+
+}
+
+ .three .cards .overlay2{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.276);
+    opacity: 0;
+    transition: all .5s;
+    
+}
+
+
+
+.cards .cardsimg img{
+    transition: all .5s;
+    position: relative;
+}
+
+
+ .cards:hover .overlay2{
+    opacity: 1;
+} 
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+.four .text{
+    text-align: center;
+    padding: 30px 0;
+    
+    
+}
+.four .text h2{
+    font-size: 45px;
+    font-family:'Josefin Sans', sans-serif;
+    
+}
+.four .text p{
+    color: #777;
+    font-size: 16px;
+}
+.four .card2{
+    margin-top: 30px;
+}
+.four .card2text{
+    text-align: center;
+}
+
+.four .card2 h2{
+    font-size: 24px;
+    font-family:'Josefin Sans', sans-serif;
+    margin-top: 30px;
+
+}
+
+.four .card2img{
+    position: relative;
+    border-bottom: red solid;
+}
+.four .card2img .overlay3{
+    position: absolute;
+    bottom: -10px;
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    transition: all .3s;
+    opacity: 0;
+
+}
+.card2img:hover .overlay3{
+    transform: translatey(-10px);
+    opacity: 1;
+}
+.four .card2img .overlay3 p{
+    text-align: center;
+    color: white;
+    font-family:'Josefin Sans', sans-serif;
+    padding: 20px 0;
+
+}
+.four .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.four .btn button{
+    width: 220px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #ff2020;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    border-radius: 0%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+.five .sevtext{
+    margin-top: 80px;
+}
+
+
+.five .sevtext h2{
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.five .sevtext p{
+    font-size: 16px;
+    width: 75%;
+    padding: 20px 0;
+    color: #777;
+}
+.five .sevtext .btn button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #ff2020;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    border-radius: 0%;
+    
+    
+
+}
+
+/*  */
+
+
+
+
+.eight .cooltext{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.eight .cooltext h2{
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.eight .cooltext p{
+    font-size: 16px;
+    width: 75%;
+    padding: 20px 0;
+    color: #777;
+}
+.eight .cooltext .btn button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #ff2020;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    border-radius: 0%;
+   
+
+}
+
+
+
+
+/*  */
+
+
+
+
+
+
+.ten {
+    
+    width: 100%;
+    height: 220px;
+}
+.ten .container{
+    background-color: #ea0000;
+}
+.ten .ele {
+    
+    width: 80%;
+    margin: auto;
+    
+}
+.ten .eleicon{
+    list-style: none;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.ten .eletext h6{
+    font-size: 20px;
+    color: white;
+
+}
+.ten .eletext p {
+    font-size: 16px;
+    color: #d3d1d1;
+
+}
+
+
+
+/*  */
+
+.tewl{
+    margin-top: 60px;
+}
+
+.tewl .thrimg{
+    width: 150px;
+}
+.tewl .thrtext{
+    padding: 30px 0;
+    font-size: 16px;
+    color: #777;
+}
+.tewl .thrlist h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.tewl .thrlist ul{
+    list-style: none;
+    position: relative;
+    right: 25px;
+}
+.tewl .thrlist li  {
+    color: #777;
+    line-height: 2;
+    
+    
+}
+.tewl .thrlist li p{
+    transition: all .5s;
+}
+li p:hover {
+    transform: translate(10px);
+    color: #ea0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last .endicon{
+    display: flex;
+    list-style: none;
+    
+}
+.last .endicon li  {
+    margin-right: 20px;
+
+}
+.last .endicon li i{
+    transition: all 1s;
+}
+
+.endicon i:hover {
+    color: #ea0000;
+    transform: rotatey(180deg);
+}
+
+.last .endtext{
+    font-size: 18px;
+    color: #888888;
+}
+.last .endtext p i{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/* section2 */
+
+
+.firsts{
+    background-image: url(../task6/about_hero.png.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.firsts .firsttext h1{
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.four{
+    margin: 60px 0;
+}
+
+.ones{
+    background-image: url(../task6/about_hero.png.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.ones .onetext h1{
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.twos .twor{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.twos .twor h4{
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    
+
+}
+.twos .twor p{
+    line-height: 1.7;
+    font-size: 14px;
+    
+}
+.twos .twostext2{
+    margin-top: 40px;
+}
+.twos .twor h4::before{
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 2px;
+    background-color: #eb566c;
+    left: 0px;
+    top: 25%;
+     
+}
+
+
+
+.school {
+    
+    margin-top: 50px;
+}
+
+
+.school .penimg{
+    position: relative;
+}
+.school .penimg .blog{
+    background-color: #ea0000;
+    font-size: 20px;
+    color: white;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: -20px;
+    transition: all .1s;
+}
+.penimg:hover .blog{
+    background-color: transparent;
+    color: #ea0000;
+}
+
+.school .pentext{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.school .pentext h2{
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+.school .pentext p {
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    
+    
+}
+.school .pentext ul{
+    display: flex;
+    list-style: none;  
+    
+}
+
+.school .pentext ul li{
+    padding-right: 30px;
+    font-size: 15px;
+    color: #777;
+    padding-bottom: 40px;
+}
+.school .pentext ul a{
+    text-decoration: none;
+    color: #777;
+}
+
+.school .big{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.school .form input {
+    height: 50px;
+    border-radius: 0;
+}
+
+
+.school .form span{
+    background-color: #ff2020;
+    color: white;
+    width: 60px;
+    font-size: 20px;
+       
+}
+.school .form i{
+    margin: auto;
+}
+.school .form .btn{
+    width: 100%;
+    height: 50px;
+    background-color: #ff2020;
+    margin-top: 20px;
+    border-radius: 0%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all .5s;  
+    
+
+
+}
+.big:hover .btn {
+    background-color: white;
+    color: black;
+    border: #fdcb9e solid;
+    border-width: 1px;
+}
+
+
+
+.school .table2{
+    margin-top: 60px;
+    
+}
+.school .table2 th{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+.school .table2 td {
+    padding: 25px 0;
+    color: #777;
+    
+    
+}
+
+.table2 td:hover {
+    color: #ea0000;
+}
+
+
+
+.school .blocks{
+    display: flex;
+    margin-top: 20px;
+}
+.school .blocks img{
+    width: 80px;
+    height: 80px;
+    
+}
+.school .blocks .blockstext{
+    margin-left: 30px;
+}
+.school .blocks .blockstext a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.school .blocks .blockstext p{
+    color: #777;
+    font-size: 14px;
+    
+}
+
+.insta .blocks .blockstext a:hover {
+    color: #ea0000;
+}
+
+
+
+.school .instatext h5{
+   padding: 20px 0;
+   font-size: 25px;
+   font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+.clr {
+    clear: both;
+}
+
+.school .btnslist li{
+    float: left;
+    margin: 10px 5px;
+    list-style: none;
+    position: relative;
+    right: 50px;
+}
+.school .btnslist a{
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 4px 10px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    transition: all 0.3s ease 0s;
+    color: #888888;
+    font-size: 13px;
+    text-decoration: none;
+}
+.school .btnslist a:hover {
+    background-color: #ea0000;
+    color: white;
+}
+.school .tags{
+    margin-top: 50px;
+}
+.school .tags .btnstext h4{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 0;
+
+}
+.school .imgs{
+    margin-top: 50px;
+}
+.school .imgstext h4{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 0;
+}
+
+
+.school .imgslist .eve {
+    display: flex;
+    flex-wrap: wrap;
+}
+.school .imgslist .eve img{
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+
+.school .last6{
+    margin-top: 50px;
+}
+.school .last6text h4{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 0;
+}
+
+
+
+.a1 .b2 iframe{
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+
+
+
+.c1{
+    margin-top: 50px;
+}
+.c1 .text4 h2{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 0;
+}
+.c1 .form2 .input2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.c1 .form2 .input1{
+    margin-bottom: 20px;
+   
+    
+    
+}
+.c1 .input1 ::placeholder{
+    padding-left: 10px;
+}
+.c1 .form2 .input1 input{
+    width: 100%;
+    height: 50px;
+    border-width: 1px;
+    border: #e5e6e9 solid;
+    
+}
+.c1 .form2 .input2 input{
+    width: 350px;
+    
+}
+.c1 .form2 .input1 textarea{
+    width: 100%;
+    height: 250px;
+    border-width: 1px;
+    border: #e5e6e9 solid;
+}
+.c1 .form2 .btn{
+    background-color: #ff2020;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    transition: all .5s;
+    text-align: center;
+}
+.c1 .form2 .btn:hover {
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+.c1 .group{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.c1 .icon6{
+    display: flex;
+    margin-top: 20px;
+}
+.c1 .icon6 li{
+    list-style: none;
+}
+.c1 .icon6 .text6{
+    margin-left: 20px;
+}
+
+.c1 .icon6 .text6 h4 {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.c1 .icon6 .text6 p{
+    color: #777;
+}
+.c1 .icon6 .img6 li i{
+    font-size: 25px;
+    color: #777;
+    
+}
+
+
+
+
+
+
+
+
+
+header .nav-item .nav-link:hover {
+    color: #ea0000;
+
+}
+header .nav-item {
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+header .dropdown .nav-link{
+    color: black
+}
+
+header .dropdown .dropdown-menu .dropdown-item:hover{
+    color: #ea0000;
+    background-color: transparent;
+}
+header .dropdown .dropdown-menu {
+    opacity: 0;
+}
+header .dropdown .dropdown-menu:hover{
+    opacity: 1;
+    
+}
+
+header .navbar {
+    height: 100px;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+
+    
+}
+
+
+ .t{
+    width: 500px;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px)  {
+    .first .watchtext h1 {
+        font-size: 40px;
+    }
+    .first .watchtext p {
+        font-size: 16px;
+        width: 300px;
+    }
+    
+    
+    .eight .cooltext p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+
+    .five .sevtext p {
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .first .watchimg {
+        width: 160px;
+    }
+    .cards .cardsimg img {
+        height: 560px;
+    }
+    .five .sevtext h2 {
+        font-size: 30px;
+    }
+    .t {
+        width: 300px;
+    }
+    .sevimg{
+        width: 50%;
+    }
+    
+    .eight .cooltext h2 {
+        font-size: 30px;
+    }
+    .ten {
+        background-color: #ea0000;
+        width: 100%;
+        height: 360px;
+    }
+    .ten .ele {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .first {
+        background-color: #f1f1f1;
+        height: 100vh;
+    }
+    .c1 .group {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .c1 .form2 .input2 input {
+        width: 322px;
+    }
+
+
+}
+    
+
+

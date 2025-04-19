@@ -1,0 +1,848 @@
+img {width: 100%;
+display: block;}
+*
+{margin: 0;
+ padding: 0;
+ box-sizing: border-box;}
+.clr {clear: both;}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.p-70 {padding: 70px 0;}
+img
+
+
+
+
+.about .container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+}
+.about .first{
+    width: 50%;
+    
+    
+}
+
+.about .firsttext h1{
+   font-size: 55px;
+   font-family: 'Nunito', sans-serif;
+   
+}
+
+.about .firsttext p{
+    line-height: 1.7;
+    color: #6c757d;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.about .firsttext .btn{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 80px;
+    border: none;
+    color: white;
+    background-color: #4285f4;
+    font-size: 16px;
+    transition: all .5s;
+
+}
+.btn:hover {
+    transform: translatey(-5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+.a .text {
+    text-align: center;
+    transition: all .6s;
+    opacity: 0;
+    
+    
+}
+.a .text h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    
+}
+
+.a .text p{
+    color: #6c757d;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+    line-height: 1.7;  
+}
+
+
+.a .div {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+
+}
+.a .row{
+    width: 33%;
+    list-style: none;
+    padding:12px;
+    margin-top: 30px;
+    transition: all .5s;
+    opacity: 0;
+
+}
+.a .div1{
+    border: none;
+    text-align: center;
+    background-color: #f1f1f1;
+    z-index: -1;
+    border-radius: 5px;
+    transition: all .5s;
+    
+
+   
+}
+.a .div1 li{
+    width: 80px;
+    height: 80px;
+    background-color: #4285f4;
+    margin: auto;
+    font-size: 25px;
+    border-radius: 50%; 
+    z-index: 1000;
+    position: relative;
+    bottom: 35px;
+    
+    
+}
+.a .div1 i{
+    position: relative;
+    top: 25px;
+    bottom: 15px;
+    color: white;
+}
+.a .div1 h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+
+    
+    
+}
+.a .div1 p{
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+   
+}
+.a .div1 .r {
+    color: #4285f4;
+    padding: 10px 0;
+}
+
+.a:hover .text{
+    transform: translatey(-15px);
+    opacity: 1;
+}
+.div:hover .row {
+    opacity: 1;
+    transform: translatey(-14px);
+    
+
+}
+
+.row:hover .div1 {
+    background-color: #4285f4;
+    color: white;
+    opacity: 1;
+    
+}
+.div1:hover .r{
+    color: white;
+}
+.div1:hover li{
+    background-color: white;
+    transform: translatey(-10px);
+    
+    
+}
+.div1:hover i{
+    color: #4285f4;
+}
+
+
+
+
+
+
+.grand .tree{
+    width: 50%;
+    float: left;
+    
+    
+}
+.grand .treeimg{
+    width: 60%;
+    
+}
+ 
+
+
+.grand .treetext {
+    width: 40%;
+    position: relative;
+    left: 40px;
+    margin-top: 60px;
+   
+}
+.grand .treetext h2{
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+.grand .treetext p{
+    font-size: 18px;
+    padding: 20px 0;
+    font-family: 'Nunito', sans-serif;
+    color: #6c757d;
+    line-height: 1.7;
+    
+}
+
+.grand .treetext .b1{
+    width: 60px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    clip-path: circle();
+    
+}
+.grand .block{
+    transition: all 1s;
+    opacity: 0;
+}
+
+.grand .treetext .b2 strong {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+
+    
+}
+.grand .treetext .b2 p{
+    margin-top: 40px;
+    font-size: 14px;
+    color: #6c757d;
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+.grand .treeimg img{
+    transition: all .5s;
+    opacity: 0;
+}
+
+
+
+.grand:hover img{
+    transform: translatex(15px);
+    opacity: 1;
+   
+}
+.grand .block img{
+    transition: all 1s;
+    opacity: 0;
+}
+
+.grand:hover .block {
+    transform: translate(-15px);
+    opacity: 1;
+}
+.grand .block .b1 img{
+    transition: all 1s;
+    opacity: 0;
+   
+
+}
+.grand:hover .b1 img{
+    transform: translate(-15px);
+    opacity: 1;
+}
+
+
+
+
+
+.school .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.school .pin{
+    width: 50%; 
+}
+.school .pinimg{
+   width: 60%;
+   opacity: 0;
+   transition: all .5s;
+   position: relative;
+   left: 100px;
+}
+.school .pintext {
+   width: 40%;
+   position: relative;
+   top: 60px;
+}
+.school .pintext h2{
+    font-size: 40px ;
+    font-family: 'Nunito', sans-serif;
+
+}
+.school .pintext p{
+    font-size: 16px;
+    padding: 20px 0;
+    font-family: 'Nunito', sans-serif;
+    color: #6c757d;
+    line-height: 1.7;
+
+}
+.school .pintext .block2{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.354);
+    opacity: 0;
+    transition: all .5s;
+    
+}
+.school .pintext .block2 .b3{
+    width: 60px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    clip-path: circle();
+     
+}
+.school .pintext .block2 .b4{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.school:hover .pinimg {
+    transform: translatex(-15px);
+    opacity: 1;
+}
+.school:hover .block2{
+    transform: translatex(15px);
+    opacity: 1;
+}
+
+
+
+
+
+.tv .d{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.tv .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tv .sofa{
+    width: 50%;
+    margin-top: 70px;
+    
+}
+.tv .sofaimg{
+   transition: all .5s;
+   opacity: 0;
+}
+.tv .sofatext{
+    
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+.tv .sofatext h2{
+    font-size: 30px ;
+    font-family: 'Nunito', sans-serif;
+
+}
+.tv .sofatext p{
+    font-size: 16px;
+    padding: 20px 0;
+    font-family: 'Nunito', sans-serif;
+    color: #6c757d;
+    line-height: 1.7;
+    width: 80%;
+}
+.tv .sofatext ul{
+    list-style: none;
+}
+.tv .sofatext ul li{
+    margin-top: 20px;
+    color: #6c757d;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.tv .sofatext ul li i{
+    color: #8bc34a;
+    margin-right: 10px;
+}
+.tv .sofatext .btn{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 80px;
+    border: none;
+    color: white;
+    background-color: #4285f4;
+    font-size: 16px;
+    transition: all .5s;
+    
+
+}
+.tv:hover .sofaimg{
+    transform: translatex(15px);
+    opacity: 1;
+}
+.sofatext:hover .btn{
+    transform:  translatey(5px);
+    
+}
+
+
+
+
+
+.lap{
+    
+}
+.lap .f{
+    margin: auto;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    width: 40%;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.lap .f h2{
+    font-size: 40px;
+}
+.lap .f p{
+    font-size: 18px;
+    color: #6c757d;
+    padding: 30px 0;
+}
+
+.lap .row1{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.lap .col1{
+    width: 33.333%;
+    transition: all .5s;
+    opacity: 0;
+    padding:15px;
+}
+.lap .mob {
+    overflow: hidden;
+    
+ 
+}
+.lap .mob h2{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 25px;
+}
+.lap .mob .k{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #4285f4;
+    font-weight: 600;
+    font-size: 14px;
+}
+.lap .mob p{
+    padding: 10px 0;
+    color: #6c757d;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.7;  
+}
+
+
+
+
+.mob img{
+    transition: all .3s;
+      
+}
+.lap .mobimg{
+    position: relative;
+}
+.mobimg .block3{
+    width:100%;
+    height: 50px;
+    position: absolute;
+    background-color: #4285f4;
+    bottom: -7px;
+    opacity: 0;
+    transition: all .2s;
+    display: flex;
+    justify-content: center;  
+}
+
+
+
+.mob:hover .block3{
+    opacity: 1;
+    transform: translatey(7px);
+}
+
+.block3 li {
+    list-style: none;
+    padding: 10px 15px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+.mob:hover .block3{
+    
+    opacity: 1;
+   
+}
+
+.col1:hover .mob img{
+    transform: scale(1.08)
+}
+
+
+.lap:hover .f {
+    transform: translatey(-15px);
+    opacity: 1;
+}  
+.container:hover .col1{
+    opacity: 1;
+    transform: translatey(-15px);
+    
+}
+
+
+
+
+
+.vid .bb{
+    margin: auto;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding-bottom: 80px;
+
+}
+
+
+
+
+
+
+
+
+.vid .row3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.vid .col3{
+    width: 33.33%;
+    padding: 0 15px;
+}
+.vid .coltext{
+    display: flex;
+    flex-wrap: wrap;
+}
+.vid .cam h3{
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 25px;
+}
+.vid .coltext{
+    padding: 20px 0;
+}
+.vid .coltext p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.vid .coltext li {
+    color: #b3b3b3;
+    margin-left: 15px;
+}
+.vid .cam .o{
+    color: #4285f4;
+}
+.vid p{
+    font-size: 15px;
+    color: #6c757d;
+    line-height: 1.7;
+    padding-bottom: 20px;
+    
+}
+
+
+
+
+
+
+.win {
+    
+    background-image: url(../task5/hero_1.jpg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    position: relative;
+}
+.win::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #5c98f99f; 
+    z-index: 1;
+}
+.win .plan{
+    position: relative;
+    z-index: 3;
+}
+.win .plantext{
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+
+.win .planform .contact{
+    padding: 50px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+
+}
+.win  .planform{
+    background-color: white;
+    width: 600px;
+
+    margin: auto;
+    padding: 0 20px;
+    
+    
+}
+.win .planform .form{
+    font-family: 'Nunito', sans-serif;
+
+}
+.win .planform .form .input2{
+    margin-bottom: 30px;
+    
+    
+    
+}
+.win .planform .form .input2 label{
+    display: block;
+    margin-bottom: 3px;
+    
+}
+
+
+.win .planform .form .input1{
+    display: flex;
+    justify-content: space-between;
+}
+.win .planform .form .input2 input{
+    width: 100%;
+    height: 40px;
+    border: rgba(0, 0, 0, 0.208) solid;
+    border-width: 1px;
+    
+}
+.win .planform .form .input2 textarea{
+    width: 100%;
+    border: rgba(0, 0, 0, 0.208) solid;
+    border-width: 1px;
+}
+.win .planform .form .input1 input[type="text"] {
+    width: 250px;
+}
+
+.form{
+    position: relative;
+}
+.win .form button {
+    margin: 20px 0;
+    width: 150px;
+    height: 50px;
+    border-radius: 200px;
+    border: none;
+    color: white;
+    background-color: #4285f4;
+    font-size: 14px;
+    transition: all 0.5s;
+   
+    
+    
+}
+.btn4 button{
+    transition: all 0.5s;
+}
+
+.win .form :hover button {
+    transform: translatey(-6px);
+    
+
+}
+
+
+
+
+
+
+
+.finish{
+    
+   
+}
+.finish .taskicon{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+   
+
+}
+ 
+.finish .taskicon li i{
+    padding: 0 20px;
+    color: #4285f4;
+    transition: all .5s;
+
+}
+.finish .taskicon li i:hover{
+    color: rgb(51, 51, 97);
+}
+
+
+
+.finish .tasktext{
+    text-align: center;
+    padding-top: 50px;
+    color: #6c757d;
+    font-family: 'Nunito', sans-serif;
+}
+.finish .tasktext i{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .about .first {
+        margin: 80px 0;
+    }
+    .about .firsttext h1 {
+        font-size: 40px;
+    }
+    .grand .treetext p {
+        font-size: 15px;
+    }
+    .grand .treetext h2 {
+        font-size: 30px;
+    }
+    .school .pintext h2 {
+        font-size: 30px;
+    }
+    .school .pintext p {
+        font-size: 14px;
+    }
+    .tv .sofatext p {
+        font-size: 14px;
+    }
+    .tv .sofatext ul li {
+        font-size: 14px;
+    }
+    .tv .sofatext .btn {
+        width: 127px;
+        height: 42px;
+        font-size: 13px;    
+    }
+    .vid .col3 {
+        width: 50%;
+    }
+    .vid p {
+        font-size: 14px;
+    }
+    .win .planform {
+        background-color: white;
+        width: 700px;
+    }
+    
+    
+}
+@media screen and (max-width:600px) {
+    .about .first {
+        width: 100%;
+    }
+    .vid .col3 {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .win .planform {
+        background-color: white;
+        width: 500px;
+    }
+    .win .planform .form .input1 input[type="text"] {
+        width: 200px;
+    }
+    
+}

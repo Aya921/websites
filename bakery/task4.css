@@ -1,0 +1,1148 @@
+ 
+img {width: 100%;}
+*
+{margin: 0;
+ padding: 0;
+ box-sizing: border-box;}
+.clr {clear: both;}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.p-70 {padding: 70px 0;}
+
+
+/* first page */
+
+.parent {
+    height: 105vh;
+    background-image: url(../task4/cover.jpg);
+    background-size: cover; 
+    background-position: center; 
+    overflow: hidden; 
+}
+.parent .about {
+   
+    text-align: center;
+    margin-top: 180px; 
+    color: white;  
+}
+.parent .about .p1{
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-family: 'Alegreya Sans';
+} 
+.parent .about h1 {
+    font-size: 60px;
+    margin: 10px 0;
+    font-family: 'Alegreya', serif;
+    font-weight: 200;
+
+}
+.parent .about p{
+    font-size: 20px;
+    font-family: 'Alegreya Sans';
+    line-height: 1.7;
+}
+.parent .about .btn {
+    margin: 30px 0;
+    padding: 15px 28px;
+    margin-right: 7px;
+    border-radius: 5px;
+    font-size: 12px;
+    
+    color: white;
+    font-family: 'Alegreya Sans';
+
+}
+.parent .about .btn1{
+    background-color: #8e7754;
+    border: #8e7754 solid;
+}
+.parent .about .btn2 {
+    background-color:rgba(255, 255, 255, 0) ;
+    border: white solid;
+} 
+
+
+
+
+
+
+.grand {
+    background-color:white;
+}
+.grand .can {
+    width: 50%;
+    float: left;
+}
+.grand .canimg {
+    width: 40%;
+    margin-left: 40px;
+}
+.grand .cantext{
+    margin-left: 65px;
+    margin-top: 30px;
+} 
+.grand .cantext h2 {
+    font-size: 25px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    
+}
+.grand .cantext p {
+    font-size: 14px;
+    font-family: 'Alegreya Sans';
+    line-height: 1.7;
+    padding: 20px 0;
+    color: #686868;
+   
+}
+.grand .cantext ul {
+    list-style: none;
+    font-family: 'Alegreya Sans';
+    line-height: 1.9;
+    color: #686868;
+}
+.grand .cantext ul li {
+    margin: 15px 0;
+    font-size: 12px;
+    margin-left: 7px;
+    
+
+
+}
+.grand .cantext li i {
+
+    padding: 9px;
+    border: #6868686b solid ;
+    border-width: 1px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #8e7754;
+    margin-right: 9px;
+}
+
+
+
+
+
+.bag{
+    background-color: #f8f8f8;
+}
+.bag .pin{
+    width: 50%;
+    float: left;
+    
+    
+    
+}
+.bag .pintext{
+    padding-top: 80px;
+    margin-left: 40px;
+}
+.bag .pinimg{
+    width: 40%;
+    margin-left: 8px;
+
+}
+.bag .pintext h2{
+    font-size: 25px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+
+}
+.bag .pintext p {
+    font-size: 14px;
+    font-family: 'Alegreya Sans';
+    line-height: 1.7;
+    padding: 10px 0;
+    color: #686868;
+}
+
+
+
+
+.father {
+    
+}
+.father .child {
+    text-align: center;
+    
+}
+
+.father .child h3 {
+    font-size: 25px;
+    font-family:'Alegreya', serif ;
+    font-weight: 100;
+    
+
+}
+.father .child p {
+    font-size: 14px;
+    font-family: 'Alegreya Sans' ;
+    margin-top: 10px;
+    color: #888;
+}
+
+.father .all {
+    margin: auto;
+    width: 80%;
+   
+    
+    
+}
+.father .all .son {
+    width: 33.33333%;
+    float: left;
+    padding: 0 20px;
+    padding-top: 80px;
+    
+   
+    
+    
+   
+}
+.father .all .son h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Alegreya', 'serif';
+    font-weight: 100;
+}
+.father .all .son p{
+    font-size: 13px;
+    font-family: 'Alegreya Sans' ;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 1.8;
+    color: #686868;
+}
+
+
+
+.room{
+    background-color: #f8f8f8;
+    overflow: hidden;
+
+}
+.room .chr {
+    width: 50%;
+    float: left;
+}
+.room .chrimg iframe {
+    width: 90%;
+    padding-bottom: 30px;
+    margin-top: 55px;
+    
+}
+.room .chrtext{
+    margin-top: 70px;
+}
+.room .chrtext h2{
+    font-size: 25px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+}
+.room .chrtext p{
+    font-size: 14px;
+    font-family: 'Alegreya Sans';
+    line-height: 1.7;
+    padding: 20px 0;
+    color: #686868;
+}
+.room .chrtext ul{
+    list-style: none;
+    font-family: 'Alegreya Sans';
+    line-height: 1.9;
+    color: #686868;
+    padding-left: 10px;
+    
+}
+.room .chrtext li {
+    margin: 10px 0;
+    
+}
+.room .chrtext  i{
+    padding: 7px;
+   background-color: #8e7754 ;
+    border-radius: 50%;
+   margin-right: 10px;
+    font-size: 12px;
+    color: white;
+
+
+}
+
+
+.liv {
+    background-color:#403d38;
+    overflow: hidden;
+    padding: 50px ;
+}
+.liv .sofa{
+    width: 25%;
+    float: left;
+    padding-left: 40px;
+    
+    
+}
+.liv .sofa h4{
+    font-size: 15px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    color: white;
+}
+.liv .sofa p{
+    font-size: 12px;
+    font-family: 'Alegreya Sans';
+    line-height: 1.9;
+    padding: 10px 0;
+    color: #969696;
+    
+
+}
+.liv .sofa ul {
+    list-style: none;
+    font-family: 'Alegreya Sans';
+    line-height: 2.5;
+    color: #969696;
+    padding: 10px 0;
+    
+}
+.liv .sofa li i{
+    font-size: 12px;
+    padding-right: 10px;
+}
+.liv .sofa li {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #969696;
+
+}
+
+
+
+.fcai {
+    background-color: #353330;
+   
+    border: none;
+    padding-bottom: 20px;
+
+}
+.fcai .ai {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    
+    
+   
+}
+.fcai .aiimg{
+    width: 22%;
+
+}
+.fcai .aiicon p{
+    padding: 20px 0;
+    font-size: 10px;
+    color: #777777;
+
+}
+.fcai .aiicon i{
+    padding-top: 8px;
+    width: 30px;
+    height: 30px;
+    color: #8c8a86;
+    
+    
+    background-color: #484540;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+
+
+
+
+/* secound page */
+
+
+
+.school {
+    background-image: url(../task4/cover.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+}
+.school .disk {
+    text-align: center;
+    margin-top: 75px;
+}
+.school .disk h1 {
+    font-size: 50px;
+    font-family: 'Alegreya', serif;
+    font-weight: 200;
+    color: white;
+
+}
+.school .disk p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Alegreya Sans';
+    padding: 14px 0;
+
+}
+
+
+
+
+.a {
+    background-color: white;
+
+}
+.a .b{
+    width: 50%;
+    float: left;
+}
+.a .bimg{
+    width: 40%;
+    margin: 0 50px;
+}
+.a .btext {
+    margin-top: 60px;
+}
+.a .btext h2{
+    font-size: 25px;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+
+}
+.a .btext p {
+    font-size: 14px;
+    font-family: 'Alegreya Sans';
+    line-height: 1.7;
+    padding: 20px 0;
+    
+}
+
+
+
+.c {
+    background-color: #f8f8f8;
+
+}
+.c .d{
+    text-align: center;
+   
+
+}
+.c .d i{
+    font-size: 30px;
+    color: #8e7754;
+    
+}
+.c .d h3{
+    padding: 30px 0;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    font-size: 25px;
+    
+
+}
+.c .d p{
+    font-size: 14px;
+    font-family: 'Alegreya Sans';
+    color: #777777;
+}
+ .c .dtext {
+    float: left;
+    
+    margin: 20px;
+    text-align: left;
+    
+ }
+ .c .dtext h5{
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    padding: 15px 0;
+    font-size: 15px;
+
+ }
+ .c .dtext p{
+    font-size: 14px;
+    font-family: 'Alegreya Sans';
+    line-height: 1.7;
+ }
+
+
+
+
+
+
+
+
+
+.e {
+    background-color: #8e7754;
+    overflow: hidden;
+    
+}
+.e .f{
+    width: 25%;
+    float: left;
+    text-align: center;
+    color:white;
+
+}
+.e .f i{
+    font-size: 30px;
+    
+    
+    
+}
+.e .f p{
+    
+    font-family: 'Alegreya Sans';
+}
+.e .f .pn {
+    margin: 20px 0;
+    font-size: 40px;
+    
+}
+
+
+
+
+
+
+.g {
+    background-image: url(../task4/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    overflow: hidden;
+}
+.g .h{
+    text-align: center;
+    margin-top: 100px;
+}
+.g .h h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-weight: 200;
+}
+.g .h p{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Alegreya Sans';
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.m {
+    background-color: white;
+
+}
+.m .n{
+    float: left;
+    width: 50%;
+    
+    
+    
+}
+  
+.m .nform input{
+    width: 30%;
+    padding:  15px;
+    margin: 10px 20px;
+    font-family: 'Alegreya Sans';
+    border:rgba(90, 89, 89, 0.093) solid;
+    color: #888;
+}
+.m .nform .name{
+    width: 1000px;
+}
+
+.m .nform  .sub input
+{width: 645px}
+.m .nform textarea{
+    width: 645px;
+    height: 230px;
+    margin: 10px 20px;
+    font-family: 'Alegreya Sans';
+    border:rgba(90, 89, 89, 0.093) solid;
+    padding: 0 10px;
+    color: #888;
+}
+
+.m .nform h3{
+   margin-bottom: 15px;
+   margin-left: 20px;
+   font-size: 25px;
+   font-family: 'Alegreya', serif;
+   font-weight: 100;
+}
+.m .nform button{
+    margin: 20px;
+    padding: 12px 20px;
+    background-color: #8e7754;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.m .ntext {
+   
+    width: 30%;
+    margin-left: 190px;
+}
+.m .ntext h3{
+    font-size: 25px;
+   font-family: 'Alegreya', serif;
+   font-weight: 100;
+}
+.m .ntext p{
+    margin: 25px 0px;
+    font-family: 'Alegreya Sans';
+    line-height: 1.8;
+    font-size: 15px;
+    color: #8c8a86;
+}
+.m .ntext li {
+    list-style: none;
+    font-family: 'Alegreya Sans';
+    color: #8c8a86;
+}
+.m .ntext li i{
+    margin-right: 15px;
+    line-height: 1.9;
+    background-color: #8e7754;
+    width: 26px;
+    height: 26px;
+    color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+.q .r iframe {
+    width: 100%;
+    height: 75vh;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width :1200px) {
+   
+    .parent .about {
+        margin-top: 220px;}
+    .parent .about h1{
+        font-size: 80px;}
+    .parent .about p {
+        font-size: 25px;}
+    .container {
+        width: 100%;}
+    .grand .cantext h2 {
+        font-size: 35px;}
+    .grand .cantext p {
+        font-size: 18px;}
+    .grand .cantext ul li{
+        font-size: 18px;}
+    .grand .cantext li i{
+        font-size: 20px}
+    .bag .pintext h2 {
+        font-size: 35px;}
+    .bag .pintext p {
+        font-size: 18px;}
+    .father .child h3 {
+        font-size: 35px;}
+    .father .child p {
+        font-size: 18px;}
+    .father .all .son h4{
+        font-size: 25px;
+    }
+    .father .all .son p {
+        font-size: 13.9px;
+    }
+    .room .chr {
+        width: 45%;
+    }
+    .room .chrtext {
+        margin-left: 30px;
+    }
+    .room .chrtext h2 {
+        font-size: 30px;
+    }
+    .room .chrtext p {
+        font-size: 17px;
+    }
+    .room .chrtext li{
+        font-size: 17px;
+    }
+    .room .chrtext i {
+        font-size: 17px;
+    }
+    .liv .sofa h4 {
+        font-size: 18px;
+    }
+    .liv .sofa p {
+        font-size: 14.8px;
+    }
+    .liv .sofa li {
+        font-size: 14px;
+    }
+    .liv .sofa li i {
+        font-size: 14px;
+    }
+    .fcai .aiimg {
+        width: 30%;
+    }
+    .fcai .aiicon p{
+        font-size: 15px;
+    }
+    .fcai .aiicon i {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    }
+@media screen and (max-width :768px) {
+    .parent .about h1 {
+        font-size: 40px;
+    }
+    .parent .about p {
+        font-size: 15px;
+    }
+    .parent .about {
+        margin-top: 150px;
+    }
+    .parent .about .btn {
+        font-size: 15px;
+    }
+    .grand .cantext h2 {
+        font-size: 30px;
+    }
+    .grand .cantext p{
+        font-size: 17px;
+    }
+    .grand .can {
+        width: 40%;
+    }
+    .grand .cantext {
+        margin-top: 0px;
+    }
+    .grand .cantext ul li {
+        font-size: 17px;
+    }
+    .grand .canimg {
+        margin-top: 80px;
+    }
+    .bag .pintext {
+        padding-top: 0px;
+    }
+    .bag .pinimg {
+        margin-top: 80px;
+    }
+    .bag .pintext h2 {
+        font-size: 25px;
+    }
+    .bag .pintext p {
+        font-size: 17px;
+    }
+    .father .child h3 {
+        font-size: 30px;
+    }
+    .father .child p {
+        font-size: 16px;
+    }
+    .father .all {
+        width: 90%;
+    }
+    .father .all .son h4 {
+        font-size: 23px;
+    }
+    .father .all .son p {
+        font-size: 15px;
+    }
+    .room .chr {
+        width: 48%;
+    }
+    .room .chrtext h2 {
+        font-size: 25px;
+    }
+    .room .chr {
+        margin-top: 0px;
+    }
+    .room .chrtext {
+        margin-top: 20px;
+    }
+    .liv .sofa p {
+        padding: 0px;
+    }
+    .liv .sofa {
+        width: 50%;
+    }
+    .fcai .aiimg {
+        width: 50%;
+    }
+}
+@media screen and (max-width :600px) {
+    .parent .about .btn {
+        font-size: 12px;
+    }
+    .parent .about {
+        margin-top: 100px;
+    }
+    .parent .about h1 {
+        font-size: 35px;
+    }
+    .parent .about p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .grand .can {
+        width: 100%;
+    }
+    .grand .cantext h2 {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    .bag .pin {
+        width: 100%;
+    }
+    .bag .pinimg {
+        width: 100%;
+    }
+    .father .all .son {
+        width: 100%;
+    }
+    .father .all .son p {
+        font-size: 20px;
+    }
+    .room .chrimg iframe {
+        width: 100%;
+    }
+    .room .chr {
+        width: 100%;
+    }
+    .room .chrtext ul {
+        line-height: 2.5;
+    }
+    .liv .sofa {
+        width: 100%;
+    }
+    .fcai .aiimg {
+        width: 60%;
+    }
+    .grand .canimg{
+        margin-left: 0px;
+    }
+    
+
+    
+
+
+
+    
+
+    
+
+}
+
+
+@media  screen and (max-width : 1200px) {
+    .a .btext {
+        margin-top: 30px;
+    }
+    .a .btext p {
+        font-size: 18px;
+        color: #606060;
+    }
+    .a .btext h2 {
+        font-size: 35px;
+    }
+    .c .d h3 {
+        font-size: 30px;
+    }
+    .c .dtext h5 {
+        font-size: 20px;
+    }
+    .c .dtext p {
+        font-size: 16px;
+    }
+    .c .d p {
+        font-size: 18px;
+    }
+    .c .dtext {
+        width: 30%;}
+}
+
+@media  screen and (max-width : 768px){
+    .school .disk {
+        margin-top: 40px;
+    }
+    .a .btext h2 {
+        font-size: 25px;
+    }
+    .a .btext {
+        margin-top: 0px;
+    }
+    .a .b {
+        width: 40%;
+    }
+    .a .bimg {
+        margin: 10px 50px;
+        margin-top: 80px;
+    }
+    .c .dtext {
+        width: 20%;
+        margin: 50px;
+    }
+    .c .dtext h5 {
+        font-size: 18px;
+    }
+    .c .d p {
+        font-size: 14px;
+    }
+    .e .f {
+        width: 50%;
+        margin-top: 30px;
+    }
+}
+
+@media  screen and (max-width : 600px){
+    .a .b {
+        width: 90%;
+    }
+    .a .bimg {
+        margin: 0px 30px;
+    }
+    .a .btext{
+        margin: 30px;
+    }
+    .a .btext p {
+        font-size: 17px;
+    }
+    .c .dtext {
+        width: 100%;
+    }
+    .c .dtext h5 {
+        font-size: 20px;
+    }
+    .c .d p {
+        font-size: 18px;
+    }
+    .e .f {
+        width: 100%;
+    }
+    .e .f p {
+        font-size: 20px;
+    }
+    .liv .sofa p {
+        margin-bottom: 20px;
+    }
+    
+
+}
+
+
+@media  screen and (max-width : 1200px){
+    .g .h {
+        margin-top: 100px;
+    }
+    .m .nform textarea {
+       
+        font-size: 18px;
+    }
+    .m .nform h3{
+        font-size: 35px;
+
+    }
+    .m .ntext h3 {
+        font-size: 35px;
+    }
+    .m .ntext p {
+        font-size: 18px;
+    }
+    .m .ntext li {
+        font-size: 18px;
+    }
+    .m .nform input {
+        font-size: 18px;
+    }
+    .m .ntext li i {
+        
+        width: 40px;
+        height: 40px;
+        
+        font-size: 18px;
+        
+    }
+    .liv .sofa p {
+        font-size: 14.9px;
+    }
+    .liv .sofa li {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+@media  screen and (max-width : 768px){
+    .m .nform input {
+        font-size: 15px;
+    }
+    .m .nform textarea {
+        font-size: 15px;
+    }
+    .m .ntext {
+       
+        margin-left: 220px;
+    }
+    .m .nform h3 {
+        font-size: 25px;
+    }
+    .m .ntext h3 {
+        font-size: 25px;
+    }
+    .g .h {
+        margin-top: 50px;
+    }
+    .m .nform textarea {
+        width: 405px;
+    }
+    .m .nform .sub input {
+        width: 405px;
+    }
+    .m .nform .name {
+        width: 600px;
+    }
+    .m .n {
+        width: 35%;
+    }
+    .m .ntext li {
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media  screen and (max-width : 600px){
+    .m .nform input {
+        width: 90%;
+    }
+    .m .nform .sub input {
+        width: 540px;
+    }
+    .m .nform textarea {
+        width: 540px;
+    }
+    .m .n {
+        width: 100%;
+    }
+    .m .ntext {
+        margin-left: 20px;
+    }
+    .m .ntext p {
+        font-size: 18px;
+    }
+    .m .ntext li {
+        font-size: 19px;
+    }
+    .m .ntext li i {
+       
+        width: 40px;
+        height: 40px;
+        padding-top: 2px;
+    }
+    .g .h {
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+    
